@@ -1,8 +1,12 @@
 ## 前端工程師負責部分
 ### 專案打包指令
-1. 輸入 「 npm run build 」，會在資料夾中產出 「 .next/ 」資料夾。
-2. 將「 .next/ 」、「 node_modules/ 」、「 public/ 」、「 .env 」、「 package.json 」、「 package-lock.json 」放入伺服器中的專案資料夾。
+1. 在終端機中輸入「 npm run build 」，會在資料夾中產出「 .next/ 」資料夾。
+2. 將「 .next/ 」、「 node_modules/ 」、「 public/ 」、「 .env 」、「 next.config.js 」、「 package.json 」、「 package-lock.json 」放入伺服器中的專案資料夾。
 
+![next.js/react.js專案資料夾](./README_image/F2E-project.JPG)
+> 備註：
+<br />
+> 上圖的藍色方框 「 node_modules/ 」和 「 package.json && package-lock.json 」+ npm install 兩種方式可以二擇一。
 
 ## 後端工程師負責部分
 ### 安裝IIS步驟
