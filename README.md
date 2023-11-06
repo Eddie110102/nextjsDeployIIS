@@ -20,7 +20,7 @@
 
 2.  安裝IIS<br/>
 控制台 >> 程式集 >> 程式和功能 >> 開啟或關閉 windows 功能
-![開啟IIS安裝的系統位置](/README_image/install-IIS-01.JPG)
+![開啟IIS安裝的系統位置](/README_image/install-IIS-01.JPG)<br />
 把以下圖片 IIS 相關功能打開<br/>
 ![開啟IIS安裝的系統位置](/README_image/install-IIS-02.JPG)
 >備註：請注意【要求篩選】、【.NET Extensibility 4.8】、【ASP.NET4.8】要另外打開
