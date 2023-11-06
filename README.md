@@ -22,23 +22,27 @@
 ![開啟IIS安裝的系統位置](/README_image/install-IIS-01.JPG)<br />
 把以下圖片 IIS 相關功能打開<br/>
 ![開啟IIS安裝的系統位置](/README_image/install-IIS-02.JPG)
+
 >備註：請注意【要求篩選】、【.NET Extensibility 4.8】、【ASP.NET4.8】要另外打開
 
 3. 安裝 [IISnode](https://github.com/Azure/iisnode/wiki/iisnode-releases) <br/>
 請選擇【iisnode for iis 7/8 (x64)】版本下載
 ![版本圖示](/README_image/install-IIS-03.JPG)
 ![安裝畫面](/README_image/install-IIS-04.JPG)
+
 > 備註：不須更改設定，直接安裝完成即可。
 
 4.  安裝 [url-rewrite](https://www.iis.net/downloads/microsoft/url-rewrite) <br/>
 請選擇【English: x64 installer】版本下載
 ![版本圖示](/README_image/install-IIS-05.JPG)
 ![安裝畫面](/README_image/install-IIS-06.JPG)
+
 > 備註：不須更改設定，直接安裝完成即可。
 
 5.  安裝[node.js](https://nodejs.org/en)
 ![版本圖示](./README_image/install-IIS-07.JPG)
 ![安裝畫面](./README_image/install-IIS-08.JPG)
+
 > 備註：不須更改設定，直接安裝完成即可。
 
 6. 在 C:\inetpub 中新增 專案資料夾。
@@ -57,6 +61,7 @@
 ![新增網站流程](./README_image/install-IIS-15.JPG)
 輸入【站台名稱】 >> 選取【應用程式集區】為【iisnode】 >> 設定【實體路徑】空白資料夾<br/>
 ![開啟IIS安裝的系統位置](./README_image/install-IIS-16.JPG)
+
 >備註：請把預設的網站停用(以避免 80port 被占用)，順便把我們新增的網站啟用
 
 10. 處理常式對應<br />
