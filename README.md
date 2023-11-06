@@ -4,8 +4,7 @@
 
 1. 在終端機中輸入「 npm run build 」，會在資料夾中產出「 .next/ 」資料夾。
 
-2. 將「 .next/ 」、「 node_modules/ 」、「 public/ 」、「 .env 」、「 next.config.js 」、「 package.json 」、「 package-lock.json 」放入伺服器中的專案資料夾。
-
+2. 將「 .next/ 」、「 node_modules/ 」、「 public/ 」、「 .env 」、「 next.config.js 」、「 package.json 」、「 package-lock.json 」提供給後端工程師。
 ![next.js/react.js專案資料夾](/README_image/F2E-project.JPG)
 
 > 備註：
